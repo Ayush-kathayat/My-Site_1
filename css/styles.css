@@ -1,62 +1,57 @@
-h1
+body
 {
-    margin : 0px;
-    position: relative;
-    top: 100px;
+    margin : 0;
+}
+
+.name
+{
+   margin : 0px;
+   text-align: center;
+   width: 100px;
+   margin : 0 auto
 }
 
 p
 {
-    margin : 0px;
-    position: relative;
-    top: 100px;
-}
-
-.pro
-{
-    text-decoration: underline;
-}
-
-body
-{
-    margin: 0px;
     text-align: center;
-}
+    margin : 0px;
 
-.Top-container
+}
+.top
 {
-    background-color: #A0C3D2;
-    padding-bottom: 100px;
-    position: relative;
+    background-color: brown;
+    margin : 0px;
+    height : 600px;
 }
 
-.Middle-container
+.middle
 {
     background-color: blue;
     height: 200px;
     width: 200px;
+    /* margin-bottom:10px; */
 }
 
-.lower-container
+.bottom
 {
-    background-color:red;
+    background-color: brown;
     height: 200px;
     width: 200px;
 }
-.top-cloud{
-    position : absolute;
-    right: 500px;
-    top: 50px;
 
+
+.c1
+{
+    background-color: black;
 }
 
-.bottom-cloud{
-    position : absolute;
-    top : 180px;
+.c2
+{
+    background-color: black;
+    width : 200px;
 }
 
 .mountain
 {
-    position : absolute;
-    top : 104.2px;
+    background-color: blue;
 }
