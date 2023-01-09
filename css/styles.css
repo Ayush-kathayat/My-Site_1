@@ -1,6 +1,7 @@
 body
 {
     margin : 0;
+    text-align: center;
 }
 
 .name
@@ -43,6 +44,7 @@ p
 .c1
 {
     background-color: black;
+   
 }
 
 .c2
