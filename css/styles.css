@@ -9,8 +9,6 @@ body
 {
    margin : 0px;
    text-align: center;
-   width: 100px; 
-   margin : 0 auto;
    position : absolute;
    top : 20%;
    left : 50%;
@@ -22,15 +20,20 @@ p
     margin : 0px;
     position : absolute;
     top : 30%;
-    left : 51%;
+    left : 52%;
 
+}
+
+.pro
+{
+    text-decoration: underline;
 }
 
 .top
 {
-    background-color: brown;
+    background-color: #E7F6F2;
     margin : 0px;
-    height : 800px;
+    height : 500px;
     position: relative;
 }
 
@@ -52,7 +55,7 @@ p
 
 .c1
 {
-    background-color: black;
+  
     position: absolute;
     left :70%;
     top : 10%;
@@ -61,15 +64,36 @@ p
 
 .c2
 {
-    background-color: black;
+  
     position: absolute;
     top : 45%;
     left :30%;
 }
+.c3
+{
+    position : absolute;
+    right : 10%;
+    bottom : 20%;
+
+
+}
+
+.c4
+{
+    position: absolute;
+    left : 10%;
+
+}
+
+.c5
+{
+    position: absolute;
+    left : 5%;
+    bottom : 10%;
+}
 
 .mountain
 {
-    background-color: blue;
     position: absolute;
     bottom : 0px;
     left : 35%;
