@@ -57,6 +57,6 @@ body
 
 .mountain
 {
-    position : relative;
+    position : absolute;
     top : 104.2px;
 }
