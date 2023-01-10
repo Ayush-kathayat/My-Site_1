@@ -11,6 +11,7 @@ body
    position : absolute;
    top : 20%;
    left : 45%;
+   font-family: Sacramento, sans-serif;
 }
 
 p
@@ -19,7 +20,8 @@ p
     margin : 0px;
     position : absolute;
     top : 30%;
-    left : 47%;
+    left : 46%;
+    font-family: Josefin Sans, sans-serif;
 
 }
 
@@ -30,7 +32,7 @@ p
 
 .top
 {
-    background-color: #E7F6F2;
+    background-color: #E4F9F5;
     margin : 0px;
     height : 500px;
     position: relative;
@@ -95,9 +97,9 @@ p
 {
     position: absolute;
     bottom : 0px;
-    left : 10%;
-    width : 80%;
-    height: 50%;
+    left : 30%;
+    width : 40%;
+    height: 65%;
    
   
 }
