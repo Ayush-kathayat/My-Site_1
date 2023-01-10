@@ -106,7 +106,7 @@ p
 .my_image
 {
     position : absolute ;
-    height: 400px;
-    bottom : 10px;
+    height: 150px;
+    top : 40px;
 
 }
