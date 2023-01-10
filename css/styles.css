@@ -41,9 +41,8 @@ p
 .middle
 {
     background-color: blue;
-    height: 200px;
-    width: 200px;
-    /* margin-bottom:10px; */
+    position: relative;
+    padding-bottom: 500px;
 }
 
 .bottom
@@ -102,4 +101,12 @@ p
     height: 65%;
    
   
+}
+
+.my_image
+{
+    position : absolute ;
+    height: 400px;
+    bottom : 10px;
+
 }
