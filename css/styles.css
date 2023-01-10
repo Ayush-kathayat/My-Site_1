@@ -40,7 +40,7 @@ p
 
 .middle
 {
-    background-color: blue;
+    background-color: #E4F9F5;
     position: relative;
     padding-bottom: 500px;
 }
@@ -108,5 +108,17 @@ p
     position : absolute ;
     height: 150px;
     top : 40px;
+    left : 45%;
 
+}
+
+.para_1
+{
+    position : absolute;
+    bottom: 10px;
+}
+
+h2{
+    position: absolute;
+    bottom : 10px;
 }
