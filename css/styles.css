@@ -10,18 +10,20 @@ body
    margin : 0px;
    position : absolute;
    top : 20%;
-   left : 45%;
+   left : 38%;
    font-family: Sacramento, sans-serif;
+   font-size: 6rem;
+   color: #000;
 }
 
-p
-{
-    text-align: center;
-    margin : 0px;
+.o{
+    margin : 0rem;
     position : absolute;
-    top : 30%;
-    left : 46%;
-    font-family: Josefin Sans, sans-serif;
+    top : 16rem;
+    left : 40rem;
+    font-size: 2.5rem;
+    line-height: 2;
+    font-weight: 400;
 
 }
 
@@ -32,7 +34,7 @@ p
 
 .top
 {
-    background-color: #E4F9F5;
+    background-color: #91D8E4;
     margin : 0px;
     height : 700px;
     position: relative;
@@ -40,7 +42,7 @@ p
 
 .middle
 {
-    background-color: #E4F9F5;
+    background-color: #BFEAF5;
     height: 400px;
     position: relative;
     padding-bottom: 380px;
@@ -48,7 +50,7 @@ p
 
 .bottom
 {
-    background-color: #E4F9F5;
+    background-color: #FFE5F1;
     text-align: center;
     height: 1400px;
     /* width: 200px; */
@@ -109,93 +111,101 @@ p
 .my_image
 {
     position : absolute ;
-    height: 400px;
-    width: 400px;
-    top : 10%;
-    left : 37%;
+    height: 300px;
+    width: 300px;
+    top : 25%;
+    left : 10%;
     display: inline-block;  /* this here helped me in resizing the image */
 
 }
 
 .para_1
 {
-    position : relative;
-    top: 160%;
-    left : 0%;
+    position : absolute ;
+ 
+    top: 50%;
+    left : 40%;
+    font-size: x-large;
+    width: 50%;
+    font-weight: bold;
+
 
 }
 
 .h{
    
-    position: relative;
-    top: 125%;
-    left : 0%;
+    position: absolute;
+    top: 30%;
+    left : 60%;
 }
 
-.line
-{
-    margin: 0px; 
-    color: black;
-    background-color: black;
-    border-style: dashed;
-}
 
 h1{
     margin : 0px;
     position: absolute;
     top : 5%;
-    left : 47%;
+    left : 45%;
+    font-size: xxx-large;
 }
 
 .computer
 {
     position : absolute;
-    top : 12%;
-    left : 40%
+    top : 20%;
+    right : 10%;
+    width : 20%;
 }
 
 h3{
     position: absolute;
-    top : 43%;
-    left : 47%;
+    top : 20%;
+    left : 20%;
     font-family: Indie Flower , sans-serif;
+    font-size: xx-large;
 }
 .p
 {
-    position: relative;
-    left: 0%;
-    top : 49%;
+    position: absolute;;
+    margin:0;
+    left: 17%;
+    top : 30%;
+    font-size: x-large;
+    width: 30%;
+    
 }
 
 .volley
 {
     position : absolute;
-    height: 400px;
-    width : 400px;
+    height: 300px;
+    width : 300px;
     top : 55%;
-    left : 40%;
+    left : 10%;
     display : inline-block;
 }
 
 .v{
     position : absolute;
-    top : 85%;
-    left : 51%;
+    top : 55%;
+    left : 65%;
+
 
 }
 
 .p_1{
-    position: relative;
-    width: 100%;
-    left: 0%;
-    top : 90%;
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top : 63%;
+    font-size: x-large;
+    font-weight: bold;
 
 }
 
 
 .last
 {
-    background-color: #E4F9F5;
+    background-color: #00FFD1;
     height: 300px;
     position: relative;
     margin : 0;
@@ -221,6 +231,7 @@ h3{
     position: relative;
     top : 10%;
     left : 0%;
+    margin : 0em;
 }
 .btn{
     position: relative;
@@ -232,8 +243,8 @@ h3{
 {
     position:absolute;;
     color: black;
-    bottom : 30%;
-    left : 44%;
+    bottom : 25%;
+    left : 40%;
 
 }
 
@@ -241,7 +252,7 @@ h3{
 {
     position: absolute;
     color: black;
-    bottom : 30%;
+    bottom : 25%;
     left : 48%;
   
 }
@@ -249,8 +260,8 @@ h3{
 {
     position: absolute;
     color: black;
-    bottom : 30%;
-    left : 794px;
+    bottom : 25%;
+    left : 56%;
 }
 
 h4{
@@ -258,3 +269,42 @@ h4{
     top : 80%;
     left : 46%;
 }
+
+.line
+{
+    background-color: black;
+    margin : 0;
+    height : 2px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #080808;
+    font-size: 19px;
+    background: #FCFFE7;
+    padding: 10px 20px 10px 20px;
+    border: solid #FCFFE7 7px;
+    text-decoration: none;
+    position: absolute;
+    top : 40%;
+    left : 44%;
+    transition: background 0.5s ease-in-out;
+  }
+  
+  .btn:hover {
+    background: #EB455F;
+    text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  a:hover{
+
+    color: #EB455F;
+
+  }
