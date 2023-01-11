@@ -34,22 +34,25 @@ p
 {
     background-color: #E4F9F5;
     margin : 0px;
-    height : 500px;
+    height : 700px;
     position: relative;
 }
 
 .middle
 {
     background-color: #E4F9F5;
+    height: 400px;
     position: relative;
-    padding-bottom: 800px;
+    padding-bottom: 380px;
 }
 
 .bottom
 {
-    background-color: brown;
-    height: 200px;
-    width: 200px;
+    background-color: #E4F9F5;
+    text-align: center;
+    height: 1400px;
+    /* width: 200px; */
+    position: relative;
 }
 
 
@@ -106,27 +109,152 @@ p
 .my_image
 {
     position : absolute ;
-    height: 150px;
+    height: 400px;
+    width: 400px;
     top : 10%;
-    left : 45%;
+    left : 37%;
+    display: inline-block;  /* this here helped me in resizing the image */
 
 }
 
 .para_1
 {
-    position : absolute;
-    bottom: 57%;
-    left : 25%;
+    position : relative;
+    top: 160%;
+    left : 0%;
+
 }
 
-h2{
-    position: absolute;
-    bottom : 60%;
-    left : 48%;
+.h{
+   
+    position: relative;
+    top: 125%;
+    left : 0%;
 }
 
 .line
 {
+    margin: 0px; 
+    color: black;
     background-color: black;
+    border-style: dashed;
+}
+
+h1{
     margin : 0px;
+    position: absolute;
+    top : 5%;
+    left : 47%;
+}
+
+.computer
+{
+    position : absolute;
+    top : 12%;
+    left : 40%
+}
+
+h3{
+    position: absolute;
+    top : 43%;
+    left : 47%;
+    font-family: Indie Flower , sans-serif;
+}
+.p
+{
+    position: relative;
+    left: 0%;
+    top : 49%;
+}
+
+.volley
+{
+    position : absolute;
+    height: 400px;
+    width : 400px;
+    top : 55%;
+    left : 40%;
+    display : inline-block;
+}
+
+.v{
+    position : absolute;
+    top : 85%;
+    left : 51%;
+
+}
+
+.p_1{
+    position: relative;
+    width: 100%;
+    left: 0%;
+    top : 90%;
+
+}
+
+
+.last
+{
+    background-color: #E4F9F5;
+    height: 300px;
+    position: relative;
+    margin : 0;
+}
+
+
+.btn
+{
+    position: absolute;
+    color : black;
+}
+
+.l_h
+{
+    position: relative;
+    margin : 0;
+    top : 10%;
+    left : 0%;
+}
+
+.l_p
+{
+    position: relative;
+    top : 10%;
+    left : 0%;
+}
+.btn{
+    position: relative;
+    top : 15%;
+    left : 0%;
+}
+
+.footer1
+{
+    position:absolute;;
+    color: black;
+    bottom : 30%;
+    left : 44%;
+
+}
+
+.footer2
+{
+    position: absolute;
+    color: black;
+    bottom : 30%;
+    left : 48%;
+  
+}
+.footer3
+{
+    position: absolute;
+    color: black;
+    bottom : 30%;
+    left : 794px;
+}
+
+h4{
+    position: absolute;
+    top : 80%;
+    left : 46%;
 }
