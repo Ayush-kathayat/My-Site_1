@@ -297,6 +297,7 @@ h4{
   .btn:hover {
     background: #EB455F;
     text-decoration: none;
+    color : black;
   }
 
   a{
