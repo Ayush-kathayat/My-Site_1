@@ -42,7 +42,7 @@ p
 {
     background-color: #E4F9F5;
     position: relative;
-    padding-bottom: 500px;
+    padding-bottom: 800px;
 }
 
 .bottom
@@ -107,7 +107,7 @@ p
 {
     position : absolute ;
     height: 150px;
-    top : 40px;
+    top : 10%;
     left : 45%;
 
 }
@@ -115,10 +115,18 @@ p
 .para_1
 {
     position : absolute;
-    bottom: 10px;
+    bottom: 57%;
+    left : 25%;
 }
 
 h2{
     position: absolute;
-    bottom : 10px;
+    bottom : 60%;
+    left : 48%;
+}
+
+.line
+{
+    background-color: black;
+    margin : 0px;
 }
