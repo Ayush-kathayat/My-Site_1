@@ -309,3 +309,17 @@ h4{
     color: #EB455F;
 
   }
+
+.special_line
+{
+    background-color : #FFE5F1;
+    margin : 0;
+    padding : 5px;
+    position : absolute;
+    top : 80rem;
+    left : 45rem;
+    width : 100px;
+    border-style : dotted;
+    border-color :red;
+    border-width : 0.6rem 0 0 0 ;
+}
