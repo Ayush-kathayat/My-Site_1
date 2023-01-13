@@ -1,325 +1,553 @@
-body
-{
-    margin : 0;
-    text-align: center;
-  
-}
-
-.name
-{
-   margin : 0px;
-   position : absolute;
-   top : 20%;
-   left : 38%;
-   font-family: Sacramento, sans-serif;
-   font-size: 6rem;
-   color: #000;
-}
-
-.o{
-    margin : 0rem;
-    position : absolute;
-    top : 16rem;
-    left : 40rem;
-    font-size: 2.5rem;
-    line-height: 2;
-    font-weight: 400;
+body {
+  margin: 0;
+  text-align: center;
 
 }
 
-.pro
-{
-    text-decoration: underline;
+.name {
+  margin: 0px;
+  position: absolute;
+  top: 20%;
+  left: 38%;
+  font-family: Sacramento, sans-serif;
+  font-size: 6rem;
+  color: #000;
 }
 
-.top
-{
-    background-color: #91D8E4;
-    margin : 0px;
-    height : 700px;
-    position: relative;
+.o {
+  margin: 0rem;
+  position: absolute;
+  top: 16rem;
+  left: 40rem;
+  font-size: 2.5rem;
+  line-height: 2;
+  font-weight: 400;
 }
 
-.middle
-{
-    background-color: #BFEAF5;
-    height: 400px;
-    position: relative;
-    padding-bottom: 380px;
+.pro {
+  text-decoration: underline;
 }
 
-.bottom
-{
-    background-color: #FFE5F1;
-    text-align: center;
-    height: 1400px;
-    /* width: 200px; */
-    position: relative;
+.top {
+  background-color: #91d8e4;
+  margin: 0px;
+  height: 700px;
+  position: relative;
 }
 
-
-.c1
-{
-  
-    position: absolute;
-    left :60%;
-    top : 10%;
-   
+.middle {
+  background-color: #bfeaf5;
+  height: 400px;
+  position: relative;
+  padding-bottom: 380px;
 }
 
-.c2
-{
-  
-    position: absolute;
-    top : 45%;
-    left :30%;
-}
-.c3
-{
-    position : absolute;
-    right : 10%;
-    bottom : 20%;
-
-
+.bottom {
+  background-color: #ffe5f1;
+  text-align: center;
+  height: 1400px;
+  /* width: 200px; */
+  position: relative;
 }
 
-.c4
-{
-    position: absolute;
-    left : 10%;
-
+.c1 {
+  position: absolute;
+  left: 60%;
+  top: 10%;
 }
 
-.c5
-{
-    position: absolute;
-    left : 5%;
-    bottom : 10%;
+.c2 {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+}
+.c3 {
+  position: absolute;
+  right: 10%;
+  bottom: 20%;
 }
 
-.mountain
-{
-    position: absolute;
-    bottom : 0px;
-    left : 30%;
-    width : 40%;
-    height: 65%;
-   
-  
+.c4 {
+  position: absolute;
+  left: 10%;
 }
 
-.my_image
-{
-    position : absolute ;
-    height: 300px;
-    width: 300px;
-    top : 25%;
-    left : 10%;
-    display: inline-block;  /* this here helped me in resizing the image */
-
+.c5 {
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
 }
 
-.para_1
-{
-    position : absolute ;
- 
-    top: 50%;
-    left : 40%;
-    font-size: x-large;
-    width: 50%;
-    font-weight: bold;
-
-
+.mountain {
+  position: absolute;
+  bottom: 0px;
+  left: 30%;
+  width: 40%;
+  height: 65%;
 }
 
-.h{
-   
-    position: absolute;
-    top: 30%;
-    left : 60%;
+.my_image {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 25%;
+  left: 10%;
+  display: inline-block; /* this here helped me in resizing the image */
 }
 
+.para_1 {
+  position: absolute;
 
-h1{
-    margin : 0px;
-    position: absolute;
-    top : 5%;
-    left : 45%;
-    font-size: xxx-large;
+  top: 50%;
+  left: 40%;
+  font-size: x-large;
+  width: 50%;
+  font-weight: bold;
 }
 
-.computer
-{
-    position : absolute;
-    top : 20%;
-    right : 10%;
-    width : 20%;
+.h {
+  position: absolute;
+  top: 30%;
+  left: 60%;
 }
 
-h3{
-    position: absolute;
-    top : 20%;
-    left : 20%;
-    font-family: Indie Flower , sans-serif;
-    font-size: xx-large;
-}
-.p
-{
-    position: absolute;;
-    margin:0;
-    left: 17%;
-    top : 30%;
-    font-size: x-large;
-    width: 30%;
-    
+h1 {
+  margin: 0px;
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  font-size: xxx-large;
 }
 
-.volley
-{
-    position : absolute;
-    height: 300px;
-    width : 300px;
-    top : 55%;
-    left : 10%;
-    display : inline-block;
+.computer {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 20%;
 }
 
-.v{
-    position : absolute;
-    top : 55%;
-    left : 65%;
-
-
+h3 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-family: Indie Flower, sans-serif;
+  font-size: xx-large;
+}
+.p {
+  position: absolute;
+  margin: 0;
+  left: 17%;
+  top: 30%;
+  font-size: x-large;
+  width: 30%;
 }
 
-.p_1{
-    position: absolute;
-    width: 40%;
-    left: 50%;
-    top : 63%;
-    font-size: x-large;
-    font-weight: bold;
-
+.volley {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 55%;
+  left: 10%;
+  display: inline-block;
 }
 
-
-.last
-{
-    background-color: #00FFD1;
-    height: 300px;
-    position: relative;
-    margin : 0;
+.v {
+  position: absolute;
+  top: 55%;
+  left: 65%;
 }
 
-
-.btn
-{
-    position: absolute;
-    color : black;
+.p_1 {
+  position: absolute;
+  width: 40%;
+  left: 50%;
+  top: 63%;
+  font-size: x-large;
+  font-weight: bold;
 }
 
-.l_h
-{
-    position: relative;
-    margin : 0;
-    top : 10%;
-    left : 0%;
-}
-
-.l_p
-{
-    position: relative;
-    top : 10%;
-    left : 0%;
-    margin : 0em;
-}
-.btn{
-    position: relative;
-    top : 15%;
-    left : 0%;
-}
-
-.footer1
-{
-    position:absolute;;
-    color: black;
-    bottom : 25%;
-    left : 40%;
-
-}
-
-.footer2
-{
-    position: absolute;
-    color: black;
-    bottom : 25%;
-    left : 48%;
-  
-}
-.footer3
-{
-    position: absolute;
-    color: black;
-    bottom : 25%;
-    left : 56%;
-}
-
-h4{
-    position: absolute;
-    top : 80%;
-    left : 46%;
-}
-
-.line
-{
-    background-color: black;
-    margin : 0;
-    height : 2px;
+.last {
+  background-color: #00ffd1;
+  height: 300px;
+  position: relative;
+  margin: 0;
 }
 
 .btn {
+  position: absolute;
+  color: black;
+}
+
+.l_h {
+  position: relative;
+  margin: 0;
+  top: 10%;
+  left: 0%;
+}
+
+.l_p {
+  position: relative;
+  top: 10%;
+  left: 0%;
+  margin: 0em;
+}
+.btn {
+  position: relative;
+  top: 15%;
+  left: 0%;
+}
+
+.footer1 {
+  position: absolute;
+  color: black;
+  bottom: 25%;
+  left: 40%;
+}
+
+.footer2 {
+  position: absolute;
+  color: black;
+  bottom: 25%;
+  left: 48%;
+}
+.footer3 {
+  position: absolute;
+  color: black;
+  bottom: 25%;
+  left: 56%;
+}
+
+h4 {
+  position: absolute;
+  top: 80%;
+  left: 46%;
+}
+
+.line {
+  background-color: black;
+  margin: 0;
+  height: 2px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #080808;
+  font-size: 19px;
+  background: #fcffe7;
+  padding: 10px 20px 10px 20px;
+  border: solid #fcffe7 7px;
+  text-decoration: none;
+  position: absolute;
+  top: 40%;
+  left: 44%;
+  transition: background 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background: #eb455f;
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eb455f;
+}
+
+.special_line {
+  background-color: #ffe5f1;
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  top: 80rem;
+  left: 45rem;
+  width: 100px;
+  border-style: dotted;
+  border-color: red;
+  border-width: 0.6rem 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+
+  .top {
+    width: 100%;
+    height: 450px;
+  }
+
+  .mountain {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 14%;
+  }
+
+  .c1 {
+    position: absolute;
+    left: 55%;
+    top: 15%;
+  }
+
+  .c2 {
+    position: absolute;
+    top: 35%;
+    left: 0%;
+  }
+  .c3 {
+    position: absolute;
+    right: 0%;
+    bottom: 20%;
+  }
+
+  .c4 {
+    position: absolute;
+    left: 0%;
+    top : 3%;
+  }
+
+  .c5 {
+    position: absolute;
+    left: 0%;
+    bottom: 3%;
+  }
+
+  .name {
+    margin: 0px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-family: Sacramento, sans-serif;
+    font-size: 3.2rem;
+    color: #000;
+    z-index: 1;
+  }
+
+  .o {
+    margin: 0rem;
+    position: absolute;
+    top: 36%;
+    left: 28%;
+    font-size: 24px;
+    line-height: 2;
+    font-weight: 400;
+    z-index: 1;
+  }
+  
+  .middle {
+    background-color: #bfeaf5;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 380px;
+  }
+
+  .my_image {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 15%;
+    left: 30%;
+    display: inline-block; /* this here helped me in resizing the image */
+  }
+  
+  .para_1 {
+    position: absolute;
+  
+    top: 60%;
+    left: 6%;
+    font-size: x-large;
+    width: 90%;
+    font-weight: bold;
+  }
+  
+  .h {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    font-size: xx-large;
+  }
+  
+  h1 {
+    margin: 0px;
+    position: absolute;
+    top: 8%;
+    left: 26%;
+    font-size: xxx-large;
+  }
+
+  .bottom {
+    background-color: #ffe5f1;
+    text-align: center;
+    height: 900px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .computer {
+    position: absolute;
+    top: 16%;
+    right: 25%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  h3 {
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    font-family: Indie Flower, sans-serif;
+    font-size: x-large;
+  }
+
+  .p {
+    position: absolute;
+    margin: 0;
+    left: 0%;
+    top: 40%;
+    font-size: large;
+    width: 100%;
+    font: weight 1px;
+    line-height: 1.5;
+  }
+  
+  .volley {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 56%;
+    left: 30%;
+    display: inline-block;
+  }
+  
+  .v {
+    position: absolute;
+    top: 72%;
+    left: 35%;
+  }
+  
+  .p_1 {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 77%;
+    font-size: large;
+    font: weight 1px;
+    line-height: 1.5;
+  }
+  
+  .special_line {
+    background-color: #ffe5f1;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    top: 97%;
+    left: 35%;
+    width: 100px;
+    border-style: dotted;
+    border-color: red;
+    border-width: 0.6rem 0 0 0;
+  }
+  
+  .last {
+    background-color: #00ffd1;
+    height: 250px;
+    position: relative;
+    margin: 0;
+  }
+  
+
+  
+  .l_h {
+    position: absolute;
+    margin: 0;
+    top: 10%;
+    left: 35%;
+    font-size: larger;
+  }
+  
+  .l_p {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin: 0em;
+    font-size: medium;
+  }
+  
+  
+  .footer1 {
+    position: absolute;
+    color: black;
+    bottom: 16%;
+    left: 15%;
+  }
+  
+  .footer2 {
+    position: absolute;
+    color: black;
+    bottom: 16%;
+    left: 40%;
+  }
+  .footer3 {
+    position: absolute;
+    color: black;
+    bottom: 16%;
+    left: 66%;
+  }
+  
+  h4 {
+    position: absolute;
+    top: 80%;
+    left: 46%;
+  }
+  
+  .line {
+    background-color: black;
+    margin: 0;
+    height: 2px;
+  }
+  
+  .btn {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
     font-family: Arial;
     color: #080808;
     font-size: 19px;
-    background: #FCFFE7;
+    background: #fcffe7;
     padding: 10px 20px 10px 20px;
-    border: solid #FCFFE7 7px;
+    border: solid #fcffe7 7px;
     text-decoration: none;
     position: absolute;
-    top : 40%;
-    left : 44%;
+    top: 45%;
+    left: 27%;
     transition: background 0.5s ease-in-out;
   }
   
   .btn:hover {
-    background: #EB455F;
+    background: #eb455f;
     text-decoration: none;
-    color : black;
+    color: black;
   }
-
-  a{
+  
+  a {
     text-decoration: none;
   }
-
-  a:hover{
-
-    color: #EB455F;
-
+  
+  a:hover {
+    color: #eb455f;
+  }
+  
+  .lala
+  {
+    position: absolute;
+    top: 80%;
+    left: 32%;
+    
   }
 
-.special_line
-{
-    background-color : #FFE5F1;
-    margin : 0;
-    padding : 5px;
-    position : absolute;
-    top : 80rem;
-    left : 45rem;
-    width : 100px;
-    border-style : dotted;
-    border-color :red;
-    border-width : 0.6rem 0 0 0 ;
 }
